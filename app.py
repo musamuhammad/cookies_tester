@@ -1,7 +1,7 @@
 import os
 import requests
 import urllib3
-from flask import Flask, render_template_string
+from flask import Flask, render_template_string, request 
 
 # Suppress SSL warnings for the lab
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
